@@ -1,0 +1,121 @@
+*{margin:0;padding:0;font-family:"Microsoft Yahei";font-size:16px;box-sizing: border-box}
+a{text-decoration:none;}
+#container{width:1000px;margin: 0 auto}
+.calendarContent{width:100%;margin:0 auto;}
+/*蓝色背景的样式*/
+.calendarTitle{background-color:#4298fd;height:50px;}
+.calendarTitle span{height:30px;line-height:30px;width:30px;margin:10px 15px;color:#fff;border:1px solid #fff;border-radius:30px;cursor:pointer;text-align:center;font-size:16px;}
+.positionOne{float:left;}
+.positionTwo{float:right;}
+.calendarTitle span:hover{background-color:#fff;}
+.selectContent{width:300px;text-align:center;margin:10px auto;display:inline-block;position:relative;left:35%;}
+.selectContent span{color:#fff;border:0;}
+.selectContent select{height:30px;border-radius:5px;}
+.selectYear{width:80px;}
+.selectMonth{width:60px;}
+/*表格样式*/
+.tableContent{margin:0;}
+.tableContent table{vertical-align:middle;width:100%;table-layout: fixed}
+.tableContent table tr th{height:40px;background-color:#f0f0f0;line-height:40px;font-weight:normal;}
+.past{color: #c3c3c3}
+.tableContent table tr{height:72px;line-height:20px;cursor:pointer}
+.tableContent table tr td{position:relative;text-align:left;vertical-align:top;border-bottom:1px solid #f0f0f0;border-left:1px solid #f0f0f0;}
+.tableContent table tr td:last-child{border-right:1px solid #f0f0f0;}
+.tableContent td>p{color: #e4393c;text-align: center;}
+.tableContent td>span{color: #e4393c;position: absolute;right:10px;bottom: 5px;font-size: 14px}
+.week{color:#4298fd;}
+a{
+    text-decoration:none;
+    display:inline-block;
+    color:#000;
+    width:53px;
+    height:34px;
+    line-height:34px;
+    border-radius:4px;
+    text-align:center;
+    border:1px solid #ccc;}
+.allPrice{width:100%;margin:0 auto;border:1px solid #ccc;border-radius:5px}
+
+/*头部样式*/
+.priceTop{margin:15px 0 15px 0;width:100%;padding:0 15px;}
+.priceLetf{}
+.priceDate{margin-left:23px;}
+.priceRight{float:right;color:gray;cursor:pointer;}
+.priceRight:hover{color:red;}
+.priceTitle{background-color:#eee;height:30px;line-height:30px;font-weight:bold;font-size:13px;padding-left:10px;}
+/*不同人数价格样式*/
+.priceContent{font-size:13px;font-weight:bold;color:rgba(0,0,0,0.5);padding:15px 8px;overflow: hidden;}
+.priceContent>input[type=number]{width: 40px}
+.priceContent>span{float:left;height: 30px;line-height: 30px}
+.priceSpan{padding-left:30px;}
+.priceSpanTen{padding-left:22px;}
+.priceContent>input{
+    float:left;
+    border-radius:4px;
+    height:30px;
+    width:100px;
+    line-height:30px;
+    padding-left:0;
+    margin-left:5px;
+    background-image:none;
+    font-size:16px;
+    border:1px solid #cccccc;
+}
+.addCut{
+    border:0;
+    outline: 0;
+    margin-left:10px;
+    background: #4298fd;
+    width:30px;
+    height:30px;
+    border-radius:30px;
+    display:inline-block;
+    text-align:center;
+    line-height:30px;
+    font-size:16px;
+    font-weight:bold;
+}
+.addCut[disabled]{
+    background: #cccccc;
+}
+/*库存和单房差样式*/
+.stockAll{
+    width:600px;
+    margin-top:25px;
+}
+.stockAll input{
+    border-radius:4px;
+    height:30px;
+    width:150px;
+    line-height:30px;
+    padding-left:0;
+    margin-left:15px;
+    background-image:none;
+    font-size:16px;
+    border:1px solid #cccccc;
+}
+.stock{
+    padding-left:125px;
+}
+
+/*保存关闭样式*/
+.saveClose{
+    margin:18px auto 30px auto;
+    width:165px;
+}
+.c-close{
+    background-color:#fff;
+
+}
+.c-save{
+    /*background-color:rgba(66,152,253,0.5);*/
+    background-color:#4298fd;
+    margin-left:18px;
+    color:#fff;
+}
+.c-close:hover{
+    background-color:#ccc;
+}
+.c-save:hover{
+    opacity:0.8;
+}
